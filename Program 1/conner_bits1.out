@@ -1,5 +1,5 @@
 Kayden Conner
-Program 1
+Program #1
 
 Generation 0:    220   107    13     4     8    64   Sum :   416
 Generation 1:    110   106     9     0    72    64   Sum :   361
@@ -10,3 +10,4 @@ Generation 5:      6     0     9     0    72    64   Sum :   151
 Generation 6:      3     0     9     0     8     0   Sum :    20
 Generation 7:      1     0     9     0     8     0   Sum :    18
 Generation 8:      0     0     9     0     8     0   Sum :    17
+Generations complete!

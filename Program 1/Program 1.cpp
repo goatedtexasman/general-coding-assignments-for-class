@@ -27,9 +27,10 @@ ofstream outputFile;
 
 openFiles(inputFile, outputFile); // open the input and output files
 
-outputFile << "Kayden Conner" << endl << "Program 1\n" << endl;
+outputFile << "Kayden Conner" << endl << "Program #1\n" << endl;
 
 
+// checks if the input and output files are open, if not, it will display an error message 
 if (!inputFile) {
     cerr << "Error opening input file. " << endl;
     return 1; 
@@ -39,12 +40,10 @@ if (!outputFile) {
     return 1;
 }
 
-
-
 int n; 
 vector<short> arr = readArray(inputFile, n); // reads the array from the input file
 
-
+// prints the array to the screen and to the output file before any generations are computed
 printArray(cout, arr, 0);
 printArray(outputFile, arr, 0);
 
