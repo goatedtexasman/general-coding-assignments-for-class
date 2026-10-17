@@ -51,3 +51,4 @@ void openFiles (ifstream& inputFile, ofstream& outputFile){
     cout << "Enter the output file name: ";
     cin >> outputName;
     outputFile.open(outputName); //opens output file
+}
